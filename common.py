@@ -21,3 +21,16 @@ def get_data():
     # create a dataframe from the lists
     df = pd.DataFrame({'Title': titles, 'Hyperlink': hyper})
     return df
+
+# searches df for keyword input by user in CL, returns list with any matching values
+def search_df(df, keyword):
+    for title in 
+
+
+
+
+def run_search(keyword):
+    df = get_data()
+    value = search_df(df, keyword)
+
+
