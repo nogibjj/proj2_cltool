@@ -11,4 +11,14 @@ https://www.journals.elsevier.com/journal-of-advanced-research/most-downloaded-a
 
 ![IMG_0013](https://user-images.githubusercontent.com/112578194/196303166-53a0492f-494d-4df3-9cef-ab2a93190336.jpg)
 
+I used the beautifulsoup and pandas packages to scrape the dataset from the 
+Elsevier website and format it in a dataframe. I then created a bash script to 
+with a help functionality and the ability to call three functions. Function
+get_data, called with ./main.sh run_scrape, scrapes the dataset from the 
+website without printing it. Function print_df, called with ./main.sh run_scrape, 
+scrapes the dataset from the website and prints it to the terminal. Function
+run_search, called with ./ main.sh keyword_search, prompts the user for a 
+keyword. If the keyword is in any of the article titles, the title of the article, 
+its rank in the dataset, and the hyperlink to the article is printed to the 
+terminal. 
 
