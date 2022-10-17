@@ -20,6 +20,4 @@ def get_data():
 
     # create a dataframe from the lists
     df = pd.DataFrame({'Title': titles, 'Hyperlink': hyper})
-
-
-
+    return df
