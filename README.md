@@ -9,5 +9,6 @@ I utilized the the 'Most Downloaded Articles' list on Elsevier found at
 https://www.journals.elsevier.com/journal-of-advanced-research/most-downloaded-articles .
 
 
-![IMG_0013 Small](https://user-images.githubusercontent.com/112578194/196303095-acb0c880-e763-41bf-bffd-e559e06c60f5.png)
+![IMG_0013](https://user-images.githubusercontent.com/112578194/196303166-53a0492f-494d-4df3-9cef-ab2a93190336.jpg)
+
 
