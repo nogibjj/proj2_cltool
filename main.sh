@@ -9,17 +9,18 @@ case $1 in
     echo "  run_scrape: Scrape the data from the website"
     echo "  print_scrape: Scrape the data and print it to the terminal"
     echo "  keyword_search: Run a keyword search on user input"
+    
     ;;
 
     # Run get_data function
     run_scrape)
-    python -c'import common.py; common.get_data()'
+    python -c'import common; common.get_data()'
     
     ;;
 
     # Run print_df function
     print_scrape)
-    python -c'import common.py; common.print_df()'
+    python -c'import common; common.print_df()'
 
     ;;
 
@@ -27,8 +28,7 @@ case $1 in
     keyword_search)
     echo "Enter a keyword to search for: "
     read keyword
-    python -c'import common.py; common.run_search(keyword)'
-
+    python -c"import common; common.run_search('$keyword')"
 
     ;;
 esac
